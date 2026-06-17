@@ -15,6 +15,13 @@ class TelegrafConfigTest(unittest.TestCase):
         self.assertIsNotNone(topics_match)
         self.assertEqual(topics_match.group(1), "C-S/+/+/+/+/+/+/+")
 
+    def test_mqtt_consumer_preserves_json_string_fields_for_capture_dt_and_text_values(self):
+        config = (ROOT / "telegraf.conf").read_text(encoding="utf-8")
+
+        self.assertIsNotNone(
+            re.search(r'^\s*json_string_fields\s*=\s*\["\*"\]', config, re.MULTILINE)
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
