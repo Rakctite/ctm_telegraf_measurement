@@ -1,0 +1,15 @@
+"plant_cd","plant_bd","process_type","line_code","equip_id","equip_code","sensor_code","sensor_id","equip_name","unit","is_active","mac_address","plc_address","sensor_type"
+"3210",IP,ROLL,A,1,RollA,R_Current_R,1,RollA,mA,true,Roll,"",Current
+"3210",IP,ROLL,A,1,RollA,R_Current_S,2,RollA,mA,true,Roll,"",Current
+"3210",IP,ROLL,A,1,RollA,R_Current_T,3,RollA,mA,true,Roll,"",Current
+"3210",IP,ROLL,A,1,RollA,R_Gap_left,4,RollA,mA,true,Gap,"",Current
+"3210",IP,ROLL,A,1,RollA,R_Gap_right,5,RollA,mA,true,Gap,"",Current
+"3210",IP,ROLL,A,1,RollA,R_Temp,6,RollA,mA,true,Gap,"",Current
+"3210",IP,ROLL,A,1,RollA,R_din_1,7,RollA,mA,true,Gap,"",Current
+"3210",IP,ROLL,A,1,RollA,R_din_2,8,RollA,mA,true,Gap,"",Current
+"3210",IP,ROLL,A,2,NeatherA,N_Current_R,9,NeatherA,mA,true,Neather,"",Current
+"3210",IP,ROLL,A,2,NeatherA,N_Current_S,10,NeatherA,mA,true,Neather,"",Current
+"3210",IP,ROLL,A,2,NeatherA,N_Current_T,11,NeatherA,mA,true,Neather,"",Current
+"3210",IP,ROLL,A,2,NeatherA,N_Step1,12,NeatherA,mA,true,Neather,"",Current
+"3210",IP,ROLL,A,2,NeatherA,N_Step2,13,NeatherA,mA,true,Neather,"",Current
+"3210",IP,ROLL,A,2,NeatherA,N_Step3,14,NeatherA,mA,true,Neather,"",Current
